@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0B00CB28145CCF00054E39 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0B00CA28145CCF00054E39 /* NotificationManager.swift */; };
+		3E0B00CD281461F300054E39 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0B00CC281461F300054E39 /* AppState.swift */; };
+		3E0B00D328146F5500054E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0B00D228146F5500054E39 /* LaunchScreen.storyboard */; };
+		3E5BEF9E2812FFE90055CE48 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5BEF9D2812FFE90055CE48 /* Constants.swift */; };
+		3E5BEFA1281309B20055CE48 /* DistanceRecorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E5BEF9F281309B20055CE48 /* DistanceRecorder.xcdatamodeld */; };
+		3E5BEFA328130AB50055CE48 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5BEFA228130AB50055CE48 /* DataController.swift */; };
+		5FADD2092811B2DF00CDB03B /* DistanceRecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FADD1F62811B2DD00CDB03B /* DistanceRecorderApp.swift */; };
+		5FADD20B2811B2DF00CDB03B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FADD1F72811B2DD00CDB03B /* ContentView.swift */; };
+		5FADD20F2811B2DF00CDB03B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FADD1F92811B2DF00CDB03B /* Assets.xcassets */; };
+		5FADD21A2811BA8A00CDB03B /* CurrentLocationTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FADD2192811BA8A00CDB03B /* CurrentLocationTab.swift */; };
+		5FADD21C2811BAAE00CDB03B /* DistanceTravelledTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FADD21B2811BAAE00CDB03B /* DistanceTravelledTab.swift */; };
+		5FADD21E2811BABF00CDB03B /* DistanceDetailsListTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FADD21D2811BABF00CDB03B /* DistanceDetailsListTab.swift */; };
+		5FADD2202811C93500CDB03B /* CurrentLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FADD21F2811C93500CDB03B /* CurrentLocationViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E0B00CA28145CCF00054E39 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		3E0B00CC281461F300054E39 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		3E0B00D228146F5500054E39 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E5BEF9D2812FFE90055CE48 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3E5BEFA0281309B20055CE48 /* DistanceDetails.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DistanceDetails.xcdatamodel; sourceTree = "<group>"; };
+		3E5BEFA228130AB50055CE48 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		3E5BEFA42813189F0055CE48 /* DistanceRecorder--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DistanceRecorder--iOS--Info.plist"; sourceTree = "<group>"; };
+		5FADD1F62811B2DD00CDB03B /* DistanceRecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceRecorderApp.swift; sourceTree = "<group>"; };
+		5FADD1F72811B2DD00CDB03B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5FADD1F92811B2DF00CDB03B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FADD1FE2811B2DF00CDB03B /* DistanceRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DistanceRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FADD2192811BA8A00CDB03B /* CurrentLocationTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationTab.swift; sourceTree = "<group>"; };
+		5FADD21B2811BAAE00CDB03B /* DistanceTravelledTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceTravelledTab.swift; sourceTree = "<group>"; };
+		5FADD21D2811BABF00CDB03B /* DistanceDetailsListTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceDetailsListTab.swift; sourceTree = "<group>"; };
+		5FADD21F2811C93500CDB03B /* CurrentLocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FADD1FB2811B2DF00CDB03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E0B00CE28146A3C00054E39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5FADD1F72811B2DD00CDB03B /* ContentView.swift */,
+				5FADD2192811BA8A00CDB03B /* CurrentLocationTab.swift */,
+				5FADD21B2811BAAE00CDB03B /* DistanceTravelledTab.swift */,
+				5FADD21D2811BABF00CDB03B /* DistanceDetailsListTab.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3E0B00CF28146A5500054E39 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3E5BEFA228130AB50055CE48 /* DataController.swift */,
+				3E5BEF9F281309B20055CE48 /* DistanceRecorder.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3E0B00D028146A6E00054E39 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3E5BEF9D2812FFE90055CE48 /* Constants.swift */,
+				3E0B00CA28145CCF00054E39 /* NotificationManager.swift */,
+				3E0B00CC281461F300054E39 /* AppState.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3E0B00D128146A8000054E39 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5FADD21F2811C93500CDB03B /* CurrentLocationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5FADD1EE2811B2DD00CDB03B = {
+			isa = PBXGroup;
+			children = (
+				3E5BEFA42813189F0055CE48 /* DistanceRecorder--iOS--Info.plist */,
+				5FADD1F32811B2DD00CDB03B /* Shared */,
+				5FADD1FF2811B2DF00CDB03B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FADD1F32811B2DD00CDB03B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3E0B00D128146A8000054E39 /* ViewModel */,
+				3E0B00D028146A6E00054E39 /* Helper */,
+				3E0B00CF28146A5500054E39 /* Data */,
+				3E0B00CE28146A3C00054E39 /* Views */,
+				5FADD1F62811B2DD00CDB03B /* DistanceRecorderApp.swift */,
+				5FADD1F92811B2DF00CDB03B /* Assets.xcassets */,
+				3E0B00D228146F5500054E39 /* LaunchScreen.storyboard */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5FADD1FF2811B2DF00CDB03B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FADD1FE2811B2DF00CDB03B /* DistanceRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FADD1FD2811B2DF00CDB03B /* DistanceRecorder (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FADD2132811B2DF00CDB03B /* Build configuration list for PBXNativeTarget "DistanceRecorder (iOS)" */;
+			buildPhases = (
+				5FADD1FA2811B2DF00CDB03B /* Sources */,
+				5FADD1FB2811B2DF00CDB03B /* Frameworks */,
+				5FADD1FC2811B2DF00CDB03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DistanceRecorder (iOS)";
+			productName = "DistanceRecorder (iOS)";
+			productReference = 5FADD1FE2811B2DF00CDB03B /* DistanceRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FADD1EF2811B2DD00CDB03B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5FADD1FD2811B2DF00CDB03B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 5FADD1F22811B2DD00CDB03B /* Build configuration list for PBXProject "DistanceRecorder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FADD1EE2811B2DD00CDB03B;
+			productRefGroup = 5FADD1FF2811B2DF00CDB03B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FADD1FD2811B2DF00CDB03B /* DistanceRecorder (iOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FADD1FC2811B2DF00CDB03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FADD20F2811B2DF00CDB03B /* Assets.xcassets in Resources */,
+				3E0B00D328146F5500054E39 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FADD1FA2811B2DF00CDB03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0B00CD281461F300054E39 /* AppState.swift in Sources */,
+				5FADD21E2811BABF00CDB03B /* DistanceDetailsListTab.swift in Sources */,
+				5FADD2202811C93500CDB03B /* CurrentLocationViewModel.swift in Sources */,
+				3E0B00CB28145CCF00054E39 /* NotificationManager.swift in Sources */,
+				5FADD21C2811BAAE00CDB03B /* DistanceTravelledTab.swift in Sources */,
+				5FADD2092811B2DF00CDB03B /* DistanceRecorderApp.swift in Sources */,
+				3E5BEFA328130AB50055CE48 /* DataController.swift in Sources */,
+				5FADD21A2811BA8A00CDB03B /* CurrentLocationTab.swift in Sources */,
+				3E5BEFA1281309B20055CE48 /* DistanceRecorder.xcdatamodeld in Sources */,
+				5FADD20B2811B2DF00CDB03B /* ContentView.swift in Sources */,
+				3E5BEF9E2812FFE90055CE48 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5FADD2112811B2DF00CDB03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FADD2122811B2DF00CDB03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5FADD2142811B2DF00CDB03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DistanceRecorder--iOS--Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please provide location access to show current location and monitor distance travelled.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please provide location access to show current location and monitor distance travelled.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please provide location access to show current location and monitor distance travelled.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jatin.demoapps.DistanceRecorder;
+				PRODUCT_NAME = DistanceRecorder;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FADD2152811B2DF00CDB03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DistanceRecorder--iOS--Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please provide location access to show current location and monitor distance travelled.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please provide location access to show current location and monitor distance travelled.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please provide location access to show current location and monitor distance travelled.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jatin.demoapps.DistanceRecorder;
+				PRODUCT_NAME = DistanceRecorder;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FADD1F22811B2DD00CDB03B /* Build configuration list for PBXProject "DistanceRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FADD2112811B2DF00CDB03B /* Debug */,
+				5FADD2122811B2DF00CDB03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FADD2132811B2DF00CDB03B /* Build configuration list for PBXNativeTarget "DistanceRecorder (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FADD2142811B2DF00CDB03B /* Debug */,
+				5FADD2152811B2DF00CDB03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3E5BEF9F281309B20055CE48 /* DistanceRecorder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3E5BEFA0281309B20055CE48 /* DistanceDetails.xcdatamodel */,
+			);
+			currentVersion = 3E5BEFA0281309B20055CE48 /* DistanceDetails.xcdatamodel */;
+			path = DistanceRecorder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5FADD1EF2811B2DD00CDB03B /* Project object */;
+}
